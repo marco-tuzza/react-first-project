@@ -1,1 +1,40 @@
 /* Main CSS file */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #23252C;
+}
+/* Container */
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Card */
+.card {
+    height: 785px;
+    width: 320px;
+    background-color: red;
+    border-radius: 10px;
+}
+/* Image */
+.image {
+    width: 100%;
+    height: 320px;
+    background-color: blue;
+}
+/* Main */
+.main {
+    width: 100%;
+    height: 400px;
+    background-color: yellow;
+}
+/* Footer */
+.footer {
+    width: 100%;
+    height: 65px;
+    background-color: green;
+}
